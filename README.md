@@ -1,2 +1,2 @@
 # tsnadb
-A command line interface for TSNAdb developed for Cambridge Bioinformatics Hackathon 2020
+A command line interface downloader tool for Tumor-Specific NeoAntigen database (TSNAdb) developed for Cambridge Bioinformatics Hackathon 2020
