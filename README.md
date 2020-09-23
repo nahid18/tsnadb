@@ -1,6 +1,7 @@
 # TSNAdb Downloader
 
-A command line interface downloader tool for Tumor-Specific NeoAntigen database (TSNAdb) developed for Cambridge Bioinformatics Hackathon 2020
+A command line interface downloader tool for Tumor-Specific NeoAntigen database (TSNAdb) developed for Cambridge Bioinformatics Hackathon 2020.
+Check the database here: http://biopharm.zju.edu.cn/tsnadb/
 
 
 ### Installation
