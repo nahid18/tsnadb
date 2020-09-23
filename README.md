@@ -52,7 +52,6 @@ uterus
 ```
 
 ### Citations
-----
 
 [1]. Wu J, Zhao W, Zhou B, Su Z, Gu X, Zhou Z*, Chen S*. TSNAdb: a database for tumor-specific neoantigens from immunogenomics data analysis. Genomics  Proteomics Bioinformatics. 2018, 16(4),276–282. DOI: 10.1016/j.gpb.2018.06.003
 
