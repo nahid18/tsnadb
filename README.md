@@ -16,9 +16,14 @@ To download all tumors:
 python tsnadb.py -t all -o output
 ```
 
-To download Bladder tumors for both NetMHCpan 2.8 and NetMHCpan 4.0:
+To download only for Bladder tumors for both NetMHCpan 2.8 and NetMHCpan 4.0:
 ```sh
 python tsnadb.py -t bladder -o output
+```
+
+To download only for Head and Neck tumors only for NetMHCpan 2.8:
+```sh
+python tsnadb.py -t head -o output --v2
 ```
 
 To get help, run
