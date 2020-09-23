@@ -12,7 +12,7 @@ conda install -c conda-forge python-wget
 ```
 To download all tumors:
 ```sh
-python tsnadb.py -h
+python tsnadb.py -t all -o output
 ```
 
 To get help, run
