@@ -8,7 +8,6 @@ Check the database here: http://biopharm.zju.edu.cn/tsnadb/
 
 Create a conda environment first, and then install required packages:
 ```sh
-conda install -c conda-forge argparse
 conda install -c conda-forge python-wget
 ```
 To download all tumors:
