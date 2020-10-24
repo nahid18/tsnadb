@@ -10,7 +10,7 @@ Create a conda environment first, and then install required packages:
 ```sh
 conda install -c conda-forge python-wget
 ```
-To download all tumors for all NetMHCpan versions:
+To download all tumors for both NetMHCpan versions:
 ```sh
 python tsnadb.py -t all -o output
 ```
@@ -20,7 +20,7 @@ To download all tumors for specific NetMHCpan version:
 python tsnadb.py -t all -o output --v4
 ```
 
-To download specific tumors for both NetMHCpan 2.8 and NetMHCpan 4.0 versions:
+To download specific tumors for both NetMHCpan versions:
 ```sh
 python tsnadb.py -t bladder -o output
 ```
