@@ -49,17 +49,18 @@ def start(t, o, version):
         
 
 def download(t, v, link, o):
+  f_path = t + '.' + v + '.zip'
   try:
-    print(t + '.' + v + '.zip downloading\n')
+    print(f_path + ' downloading\n')
     if not os.path.exists(o):
       os.makedirs(o)
-    file_name = o + '/' + t + '.' + v + '.zip'
+    file_name = o + '/' + f_path
     try:
       wget.download(link, file_name)
     except:
-      print(t + '.' + v + '.zip not found. Skipping\n')
+      print(f_path + ' not found. Skipping\n')
   except:
-    print(t + '.' + v + '.zip not found. Skipping\n')
+    print(f_path + ' not found. Skipping\n')
 
 
 if __name__ == "__main__":
